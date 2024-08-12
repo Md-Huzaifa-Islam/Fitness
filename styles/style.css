@@ -45,7 +45,9 @@ body{
     line-height: 22px;
 }
 
-
+img{
+    width: 100%;
+}
 
 
 
@@ -75,9 +77,6 @@ main{
     margin: 0px auto;
 }
 
-img{
-    width: 100%;
-}
 
 .change>div{
     display: flex;
@@ -113,16 +112,63 @@ img{
 
 
 
+/*   run section   */
+
+.run{
+    margin: 100px auto 0px;
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px 30px 30px 50px;
+}
+
+.runtext{
+    width: 450px;
+}
+
+.runimg{
+    display: none;
+    width: 100%;
+}
+
+.runimg2{
+    width: 370px;
+}
+
+.run img{
+    border-radius: 18px;
+}
+
+.run p{
+    margin: 16px 0px 35px;
+}
+
+.runtext button{
+    padding: 16px 0px;
+    border: none;
+    width: 60%;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
+
+
 
 
 
 @media screen and (max-width:576px) {
+    main{
+        padding: 0px 20px;
+    }
     .text2{
         font-size: 32px;
         font-weight: 900;
     }
     .change{
-        padding: 0px 20px;
+        padding: 0px;
     }
     .change1{
         width: 90%;
@@ -131,4 +177,26 @@ img{
         flex-direction: column;
         row-gap: 40px;
     }
+    .run{
+        padding: 30px;
+        flex-direction: column;
+        row-gap: 30px;
+        margin-top: 65px;
+    }
+    .runtext{
+        width: 100%;
+    }
+    .runtext h6{
+        width: 250px;
+    }
+    .runtext p{
+        margin-bottom: 24px;
+    }
+    .runimg2{
+        display: none;
+    }
+    .runimg{
+        display: inline-block;
+    }
+
 }
