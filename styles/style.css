@@ -2,7 +2,7 @@
     font-family: "miama";
     src: url('../font/Miama.ttf');
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
     padding: 0%;
@@ -21,4 +21,91 @@ body{
 
 .miama{
     font-family: "miama", sans-serif;
+}
+
+.text1{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.text2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.btnfont{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+
+
+
+
+main{
+    background: rgb(0, 0, 0);
+}
+
+
+
+/*   change section   */
+
+.change{
+    max-width: 1060px;
+    padding-top: 100px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.change1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    margin: 0px auto;
+}
+
+img{
+    width: 100%;
+}
+
+.change>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.changepart{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.change img{
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.changetext{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
