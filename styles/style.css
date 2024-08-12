@@ -158,6 +158,144 @@ main{
 
 
 
+/*   bmi section  */
+
+.bmi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 90px;
+    margin-top: 80px;
+}
+
+.bmitext{
+    width: 670px;
+    display: grid;
+    row-gap: 14px;
+}
+
+.bmi>div{
+    background: rgb(34, 34, 34);
+    width: calc(100%);
+    padding: 50px 20px;
+}
+
+.bmimain{
+    max-width: 1060px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bmi1{
+    display: grid;
+    row-gap: 50px;
+}
+
+.bmihead{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.bmi1 th{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: left;
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bmi1 td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.bmi2{
+    width: 576px;
+    display: grid;
+    row-gap: 35px;
+}
+
+.bmi2text{
+    display: grid;
+    row-gap: 14px;
+}
+
+.bmi2 button{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+
+.bmi form{
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.activity{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+form input{
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+select{
+    padding: 12px 0px 12px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    border-right: 10px solid rgba(255, 255, 255, 0.003);
+}
+
+option{
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    background-color: black;
+}
+
+select::selection{
+    outline: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+select:focus{
+    outline: none;
+}
+
 /*   meet section   */
 
 .meet{
