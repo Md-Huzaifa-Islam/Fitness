@@ -109,3 +109,26 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .text2{
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .change{
+        padding: 0px 20px;
+    }
+    .change1{
+        width: 90%;
+    }
+    .change>div{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
