@@ -53,6 +53,7 @@ img{
 
 main{
     background: rgb(0, 0, 0);
+    padding: 0px 20px 90px;
 }
 
 
@@ -116,7 +117,7 @@ main{
 
 .run{
     margin: 100px auto 0px;
-    max-width: 1060px;
+    max-width: 980px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,9 +160,91 @@ main{
 
 
 
+
+/*   footer section  */
+
+footer{
+    background: rgb(34, 34, 34);
+    padding: 60px 20px 35px;
+}
+
+footer>div{
+    max-width: 1060px;
+    margin: 0px auto;
+}
+
+footer hr{
+    margin: 80px 0px 35px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copy{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.footcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.part1{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.logo{
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    line-height: 120%;
+    font-style: italic;
+}
+
+footer .logo{
+    font-size: 70px;
+}
+
+.footheader{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+footer a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+
+
+
+
 @media screen and (max-width:576px) {
     main{
-        padding: 0px 20px;
+        padding-bottom: 60px;
     }
     .text2{
         font-size: 32px;
@@ -197,6 +280,19 @@ main{
     }
     .runimg{
         display: inline-block;
+    }
+    .footcontainer{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    footer{
+        padding: 45px 20px 60px;
+    }
+    .copy{
+        text-align: left;
+    }
+    footer hr{
+        margin: 70px 0px 40px;
     }
 
 }
