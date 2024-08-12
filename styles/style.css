@@ -158,6 +158,114 @@ main{
 
 
 
+/*   meet section   */
+
+.meet{
+    max-width: 1060px;
+    margin: 90px auto 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    align-items: center;
+}
+
+.meettext{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    width: 60%;
+}
+
+.meetcontainer{
+    width: calc(100% - 40px);
+    border-radius: 18px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(3,calc((100% - 40px) / 3));
+    grid-template-rows: repeat(2,270px);
+}
+
+.trainercontainer1{
+    background-image: url('../images/trainer1.png'); 
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.trainercontainer2{
+    background-image: url('../images/trainer2.png'); 
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.trainercontainer3{
+    background-image: url('../images/trainer3.png'); 
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.trainercontainer4{
+    background-image: url('../images/trainer4.png'); 
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.trainercontainer5{
+    background-image: url('../images/trainer5.png'); 
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.trainercontainer6{
+    background-image: url('../images/trainer6.png'); 
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+
+.designation{
+    position: absolute;
+    bottom: 16px;
+    left: 20px;
+}
+
+.trainername{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+
+
+
+
 
 
 
@@ -281,6 +389,94 @@ footer a{
     .runimg{
         display: inline-block;
     }
+    .meet{
+        margin-top: 65px;
+        row-gap: 40px;
+    }
+    .meettext{
+        width: 95%;
+    }
+    
+    .meetcontainer{
+        grid-template-columns: repeat(1,calc(100%));
+        grid-template-rows: repeat(6,calc((100vw - 80px) * (270 / 315)));
+    }
+    
+    .trainercontainer1{
+        background-image: url('../images/trainer1.png'); 
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        position: relative;
+    }
+    
+    .trainercontainer2{
+        background-image: url('../images/trainer2.png'); 
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        position: relative;
+    }
+    
+    .trainercontainer3{
+        background-image: url('../images/trainer3.png'); 
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        position: relative;
+    }
+    
+    .trainercontainer4{
+        background-image: url('../images/trainer4.png'); 
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        position: relative;
+    }
+    
+    .trainercontainer5{
+        background-image: url('../images/trainer5.png'); 
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        position: relative;
+    }
+    
+    .trainercontainer6{
+        background-image: url('../images/trainer6.png'); 
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: overlay;
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        position: relative;
+    }
+    
+    .designation{
+        position: absolute;
+        bottom: 16px;
+        left: 20px;
+    }
+    
+    .trainername{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+
+
+
     .footcontainer{
         flex-direction: column;
         row-gap: 30px;
@@ -293,6 +489,9 @@ footer a{
     }
     footer hr{
         margin: 70px 0px 40px;
+    }
+    .part1{
+        width: 90%;
     }
 
 }
