@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "miama";
+    src: url('../font/Miama.ttf');
+}
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+
+
+
+/*   shared styles   */
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.miama{
+    font-family: "miama", sans-serif;
+}
