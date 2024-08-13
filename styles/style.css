@@ -62,8 +62,8 @@ img{
 /*   header section  */
 
 header{
-    background: rgb(17,17,17);
-    background: linear-gradient(180deg, rgba(17,17,17,1) 5%, rgba(36,36,36,1) 49%, rgba(17,17,17,1) 95%);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(23,23,23,1) 50%, rgba(0,0,0,1) 100%);
     padding: 60px 20px 0px;
 }
 
@@ -108,7 +108,131 @@ nav ul>li>a{
 }
 
 
+/*   banner section    */
 
+.banner{
+    max-width: 1060px;
+    margin: 32px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerpart1{
+    display: grid;
+    gap: 28px;
+    width: 480px;
+}
+
+.bannerheader{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.banner span{
+    font-weight: 400;
+    line-height: 1px;
+    font-size: 140px;
+}
+
+.banner2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.bannerpart1 button{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    border: none;
+}
+
+#download{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    margin-left: 14px;
+}
+
+
+.bannerpart2{
+    position: relative;
+}
+
+.video{
+    padding: 20px 22px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 60px;
+    left: -100px;
+}
+
+.circle{
+    background: rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.video div{
+    display: grid;
+    gap: 5px;
+}
+
+.vtext1{
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.vtext2{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.video2{
+    padding: 16px 22px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    gap: 5px;
+    position: absolute;
+    top: 150px;
+    right: -20px;
+}
+
+.v2text1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.v2text2{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
 
 
 
@@ -551,6 +675,76 @@ footer a{
     nav ul{
         display: none;
     }
+    header{
+        padding-top: 50px;
+    }
+    .banner{
+        flex-direction: column;
+        row-gap: 50px;
+        margin: 50px 0px 0px;
+        align-self: flex-start;
+    }
+    .bannerpart1{
+        width: 100%;
+    }
+    .bannerheader{
+        font-size: 36px;
+        width: 70%;
+    }
+    .banner2{
+        width: 80%;
+    }
+    .banner span{
+        font-size: 70px;
+    }
+    .bannerpart1 button{
+        padding: 16px 0px;
+        width: calc(50% - 10px);
+    }
+    .bannerpart2{
+        width: 100%;
+    }
+    .video2{
+        right: 10%;
+        top: 15%;
+        gap: 3px;
+        padding: 13px 17px;
+    }
+    .video{
+        bottom: 50%;
+        left: 5%;
+        column-gap: 10px;
+        padding: 15px 18px;
+    }
+    .circle{
+        width: 30px;
+        height: 30px;
+    }
+    .vtext1{
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0.23px;
+    }
+    .vtext2{
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.38px;
+    }
+    .video div{
+        gap: 5px;
+    }
+    .v2text1{
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.76px;
+    }
+    .v2text2 {
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.76px;
+    }
+
+    
 
 
 
