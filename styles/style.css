@@ -49,6 +49,67 @@ img{
     width: 100%;
 }
 
+.logo{
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    line-height: 120%;
+    font-style: italic;
+}
+
+
+
+
+/*   header section  */
+
+header{
+    background: rgb(17,17,17);
+    background: linear-gradient(180deg, rgba(17,17,17,1) 5%, rgba(36,36,36,1) 49%, rgba(17,17,17,1) 95%);
+    padding: 60px 20px 0px;
+}
+
+nav{
+    max-width: 1060px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 36px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px;
+    padding-right: 20px;
+}
+
+nav ul>li>a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#home{
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+
+.menu{
+    display: none;
+    color: white;
+}
+
+
+
+
 
 
 main{
@@ -446,13 +507,6 @@ footer hr{
     row-gap: 20px;
 }
 
-.logo{
-    color: rgb(230, 83, 60);
-    font-weight: 800;
-    line-height: 120%;
-    font-style: italic;
-}
-
 footer .logo{
     font-size: 70px;
 }
@@ -490,6 +544,16 @@ footer a{
 
 
 @media screen and (max-width:576px) {
+
+    .menu{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+
+
+
     main{
         padding-bottom: 60px;
     }
