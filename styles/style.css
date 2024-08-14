@@ -102,6 +102,10 @@ nav ul>li>a{
     background: rgb(230, 83, 60);
 }
 
+#home a{
+    font-weight: 600;
+}
+
 .menu{
     display: none;
     color: white;
@@ -295,6 +299,9 @@ main{
     align-items: center;
 }
 
+a , button{
+    cursor: pointer;
+}
 
 
 
@@ -340,6 +347,75 @@ main{
     border-radius: 42px;
     background: rgb(230, 83, 60);
 }
+
+
+
+
+/*   package section   */
+
+.package{
+    max-width: 1060px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto 0px;
+    row-gap: 60px;
+}
+
+.ptextbox{
+    text-align: center;
+    margin: 0px auto;
+    width: 600px;
+    display: grid;
+    row-gap: 14px;
+}
+
+.offercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer{
+    padding: 20px 15px 30px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 10px 7px rgb(34, 34, 34);
+}
+
+.offer .btnfont{
+    text-align: center;
+}
+
+.text4{
+    color: rgb(102, 100, 100);;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px 10px;
+}
+
+.offer li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    list-style-position: inside;
+    letter-spacing: .3px;
+}
+
+.offer .unselect{
+    color: rgb(30, 29, 29);
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.offer button{
+    margin: 15px 10px 0px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    border: none;
+}
+
+
 
 
 
@@ -787,6 +863,29 @@ footer a{
         display: inline-block;
     }
 
+    .package{
+        margin-top: 65px;
+        row-gap: 40px;
+    }
+    .ptextbox{
+        width: auto;
+    }
+    .offercontainer{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .offer3{
+        padding: 20px 7px 30px;
+    }
+
+    .offer3 ul{
+        padding-left: 15px;
+    }
+
+
+
+
     .bmi{
         margin-top: 25px;
         row-gap: 30px;
@@ -819,7 +918,6 @@ footer a{
     .bmi input {
         width: calc(50vw - 46px);
     }
-
     .meet{
         margin-top: 65px;
         row-gap: 40px;
