@@ -299,7 +299,7 @@ main{
     align-items: center;
 }
 
-a , button{
+a , button , .menu{
     cursor: pointer;
 }
 
